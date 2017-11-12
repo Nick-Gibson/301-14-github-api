@@ -4,7 +4,8 @@
   "description": "301 github api demo",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Bob McBobbypants",
   "license": "MIT",
@@ -12,5 +13,14 @@
     "cors": "^2.8.4",
     "express": "^4.14.0",
     "superagent": "^3.8.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-Gibson/301-14-github-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nick-Gibson/301-14-github-api/issues"
+  },
+  "homepage": "https://github.com/Nick-Gibson/301-14-github-api#readme"
 }
